@@ -68,8 +68,7 @@ Update the settings.py file with your PostgreSQL credentials.
 
 Run migrations:
  ```bash
-
-   python manage.py migrate
+python manage.py migrate
 
 4.Create a superuser for the admin panel:
  ```bash
