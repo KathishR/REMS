@@ -57,6 +57,7 @@ REMS is a modern **Real Estate Management System** built using **Django** for th
    cd REMS/backend
 
 2.Create a virtual environment and install dependencies:
+ ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
@@ -66,9 +67,11 @@ pip install -r requirements.txt
 Update the settings.py file with your PostgreSQL credentials.
 
 Run migrations:
+ ```bash
 
 python manage.py migrate
 
 4.Create a superuser for the admin panel:
+ ```bash
 
 python manage.py createsuperuser
